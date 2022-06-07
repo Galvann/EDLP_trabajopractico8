@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+
+body {
+  background: linear-gradient(to top, #F9A805, white);
+
+  }
+
+
+h1 {
+  font-family: 'Lobster', cursive;
+  background-image: url(../imagenes/montana.png);
+  background-color: #F9A805;
+  text-align: center;
+  font-size: 10em;
+  text-decoration: underline;
+  font-style: oblique;
+  background-size: cover;
+  max-width: 100%;
+
+}
+@media (max-width:991px){
+  h1 {
+    color: black ;
+    background-image: url(../imagenes/montana.png);
+    background-color: #F9A805;
+    text-align: center;
+    font-size: 6em;
+    text-decoration: underline;
+    font-style: oblique;
+    background-size: cover;
+    max-width: 100%;
+  }
+}
+
+h2 {
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 0;
+}
+
+.lomito {
+  height: 100%;
+  width: 100%;
+}
+
+.lomito1 {
+  height: 100%;
+  width: 100%;
+}
+@media (min-width:991px){
+  .lomito1{
+    display: none;
+  }
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+
+
+.tarjetas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width:991px){
+  .tarjetas{
+    display: flex;
+    align-items: center;
+    object-position: center;
+
+  }
+}
+
+.card {
+  height: 350px;
+  margin: 1%;
+}
+.video {
+  padding: 5px 0 5px 10px;
+}
+@media (max-width:991px){
+  .video{
+    max-width: 100%;
+    padding: 1% 0 1% 0;
+  }
+}
+
+
+
+
+
+#darkmode {
+  margin-right: 1%;
+
+
+}
+
+.copy {
+
+  margin-top: 5%;
+  font-size: 1.2em;
+
+}
+@media (max-width:991px){
+  .copy {
+    margin-top: 5%;
+    font-size: 1.5em;
+    margin-left: 1.5%;
+  }
+}
+
+.wasap img {
+  position:fixed;
+  width:90px;
+  height:90px;
+  color#fff;
+  display: block;
+  right:8px;
+  bottom:100px;
+  border-radius:50%;
+  line-height:80px;
+  text-align:center;
+  z-index:999;
+  object-fit: contain;
+}
+@media (max-width:991px){
+  .wasap img {
+    display: none;
+  }
+}
+
+section {
+  max-width: 60%;
+}
+@media (max-width:991px){
+  section {
+    max-width: 100%;
+  }
+}
+
+
+aside {
+  margin-left: 5%;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+@media (max-width:991px){
+  aside {
+    max-width: 100%;
+    margin: 0;
+
+  }
+}
+.cuerpo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 98vw;
+}
+@media (max-width:991px){
+  .cuerpo {
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+    width: 98%;
+    object-fit: cover;
+    font-size: 1.5em;
+
+  }
+}
+
+
+.social img {
+  width: 100px;
+  height: 100px;
+}
+@media (max-width:991px){
+  .social img {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.mapa {
+  margin: 2%;
+}
+
+
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+  margin: 2%;
+}
+
+
+
+
+.menu li :hover {
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  font-size: 100px;
+  color: green;
+}
+
+form label {
+  display: block;
+}
+
+
+form {
+  clear: both;
+  align-content: center;
+  text-align: center;
+  max-width: 100vw;
+}
+
+footer {
+  width: 97%;
+}
+@media (max-width:991px){
+  footer {
+    width: 97%;
+  }
+}
+
+
+.lomito:hover{
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  border-radius: 50%
+}
+
+.face:hover {
+
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  height: 200px;
+  width: 200px;
+}
+
+.insta:hover {
+
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  height: 200px;
+  width: 200px;
+}
+
+.twitter:hover {
+
+  transition-property: all;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  height: 200px;
+  width: 200px;
+}
